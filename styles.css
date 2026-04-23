@@ -1,0 +1,142 @@
+.autolink-modal {
+  max-width: 620px;
+}
+
+.autolink-subtitle {
+  color: var(--text-muted);
+  margin-bottom: 16px;
+}
+
+.autolink-section {
+  margin-bottom: 20px;
+}
+
+.autolink-section-title {
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--text-muted);
+  border-bottom: 1px solid var(--background-modifier-border);
+  padding-bottom: 4px;
+  margin-bottom: 8px;
+}
+
+.autolink-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  padding: 7px 8px;
+  border-radius: 6px;
+  margin-bottom: 3px;
+  transition: background 0.1s;
+}
+
+.autolink-item:hover {
+  background: var(--background-secondary);
+}
+
+.autolink-item input[type="checkbox"] {
+  margin-top: 3px;
+  flex-shrink: 0;
+}
+
+.autolink-item-info {
+  flex: 1;
+  min-width: 0;
+}
+
+.autolink-match {
+  font-size: 14px;
+  margin-bottom: 4px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.autolink-quote {
+  color: var(--text-muted);
+}
+
+.autolink-matched-text {
+  background: var(--text-highlight-bg);
+  padding: 1px 4px;
+  border-radius: 3px;
+  font-weight: 500;
+}
+
+/* 제안 창 미리보기: 교체형/삽입형 모두 작게 */
+.autolink-sentence-preview {
+  font-size: 0.82em;
+  color: var(--text-faint);
+  font-style: italic;
+}
+
+.autolink-target {
+  color: var(--link-color);
+  font-weight: 600;
+}
+
+.autolink-meta {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+
+.autolink-badge {
+  font-size: 11px;
+  padding: 1px 7px;
+  border-radius: 10px;
+  background: var(--background-secondary-alt);
+  color: var(--text-muted);
+}
+
+.autolink-badge-title {
+  background: var(--color-green);
+  color: #fff;
+}
+
+.autolink-badge-alias {
+  background: var(--color-blue);
+  color: #fff;
+}
+
+.autolink-badge-keyword,
+.autolink-badge-context {
+  background: var(--color-orange);
+  color: #fff;
+}
+
+.autolink-score {
+  font-size: 11px;
+  color: var(--text-faint);
+}
+
+.autolink-keywords-line {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px;
+  align-items: center;
+  margin-top: 3px;
+}
+
+.autolink-keywords-label {
+  font-size: 11px;
+  color: var(--text-faint);
+}
+
+.autolink-keyword-chip {
+  font-size: 11px;
+  padding: 1px 6px;
+  border-radius: 8px;
+  background: var(--background-secondary-alt);
+  color: var(--text-accent);
+  border: 1px solid var(--background-modifier-border);
+}
+
+.autolink-buttons {
+  display: flex;
+  gap: 8px;
+  justify-content: flex-end;
+  margin-top: 20px;
+  padding-top: 16px;
+  border-top: 1px solid var(--background-modifier-border);
+}

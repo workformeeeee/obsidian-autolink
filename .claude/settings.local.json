@@ -1,0 +1,12 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm install *)",
+      "PowerShell(Get-Command node, npm -ErrorAction SilentlyContinue)",
+      "PowerShell(Get-ChildItem \"C:\\\\Program Files\\\\nodejs\" -ErrorAction SilentlyContinue | Select-Object Name; Get-ChildItem \"$env:APPDATA\\\\npm\" -ErrorAction SilentlyContinue | Select-Object -First 5 Name)",
+      "mcp__d7867bbf-7e63-4526-a222-562833bd1f2a__notion-create-pages",
+      "mcp__d7867bbf-7e63-4526-a222-562833bd1f2a__notion-fetch",
+      "mcp__d7867bbf-7e63-4526-a222-562833bd1f2a__notion-update-page"
+    ]
+  }
+}

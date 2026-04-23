@@ -1,0 +1,10 @@
+{
+  "id": "obsidian-autolink",
+  "name": "Auto Link",
+  "version": "1.0.0",
+  "minAppVersion": "0.15.0",
+  "description": "노트 내용을 분석하여 관련 노트에 자동으로 링크를 연결합니다.",
+  "author": "User",
+  "authorUrl": "",
+  "isDesktopOnly": false
+}
